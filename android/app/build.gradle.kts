@@ -74,6 +74,14 @@ android {
         }
     }
 
+    // The fork: native libraries are kept compressed in the APK, which keeps it
+    // under 30 MB, small enough to send to the phone through the Claude app.
+    packaging {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
+
     // https://github.com/dreautall/waterfly-iii/issues/295
     dependenciesInfo {
         // Disables dependency metadata when building APKs.
