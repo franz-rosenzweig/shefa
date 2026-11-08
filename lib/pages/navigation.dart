@@ -200,7 +200,7 @@ class NavPageState extends State<NavPage> with TickerProviderStateMixin {
                   Padding(
                     padding: const .symmetric(horizontal: 28, vertical: 16),
                     child: Text(
-                      'Waterfly III',
+                      'Shefa',
                       style: Theme.of(context).textTheme.titleSmall,
                     ),
                   ),

@@ -26,7 +26,7 @@ class _LockPageState extends State<LockPage> {
     final LocalAuthentication auth = LocalAuthentication();
     try {
       final bool success = await auth.authenticate(
-        localizedReason: "Waterfly III",
+        localizedReason: "Shefa",
         persistAcrossBackgrounding: true,
       );
       if (success) {

@@ -1,13 +1,3 @@
-# Waterfly+
-
-This is a fork of [Waterfly III](https://github.com/dreautall/waterfly-iii) with one thing added: a **Record** tab right after Main. The tab shows the Record page from [my Firefly III fork](https://github.com/franz-rosenzweig/firefly-iii) (see its RECORD.md), so it only works with a Firefly that has that page. It opens with the API token the app already logs in with. Tapping a charge opens it as a Waterfly transaction, and other links open in the browser.
-
-Waterfly+ installs beside Waterfly III rather than over it (app id `com.dreautall.waterflyiii.record`) and is signed with its own key. The APKs are on the [releases page](https://github.com/franz-rosenzweig/waterfly-plus/releases), which [Obtainium](https://github.com/ImranR98/Obtainium) can follow. Each release is a Waterfly III release with this fork's commits on top and is named after both: `v1.3.0-r3` is Waterfly III 1.3.0 with three fork commits.
-
-Everything below is Waterfly III's own README.
-
----
-
 # Waterfly III
 
 <p align="center">

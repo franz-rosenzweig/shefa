@@ -85,7 +85,9 @@ void nlCallback() {
     if (evt == null || evt.packageName == null) {
       return;
     }
-    if (evt.packageName?.startsWith("com.dreautall.waterflyiii") ?? false) {
+    // Never its own notifications, whichever app id it was built as.
+    if ((evt.packageName?.startsWith("com.dreautall.waterflyiii") ?? false) ||
+        evt.packageName == "xyz.tiresia.shefa") {
       return;
     }
     // if (evt.state == NotificationState.remove) {

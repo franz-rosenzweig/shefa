@@ -28,8 +28,8 @@ android {
     }
 
     defaultConfig {
-        // The fork installs beside the original rather than over it.
-        applicationId = "com.dreautall.waterflyiii.record"
+        // Shefa is its own app, installed beside Waterfly III rather than over it.
+        applicationId = "xyz.tiresia.shefa"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = 28
