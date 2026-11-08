@@ -15,9 +15,9 @@ import 'package:webview_flutter/webview_flutter.dart';
 final Logger log = Logger("Pages.Record");
 
 /// The Record (Jerrold Mundis's Spending Record and Spending Plan), added by
-/// this fork. It is the Record page of the Firefly overlay in
-/// /srv/docker/firefly/record-tab, opened from api/v1/record/app with the
-/// app's own API token, so there is no second login and the page changes
+/// this fork. It is the Record page of the Firefly fork at
+/// github.com/franz-rosenzweig/firefly-iii, opened from api/v1/record/app with
+/// the app's own API token, so there is no second login and the page changes
 /// without a new build. A charge opens here as a transaction; every other link
 /// into Firefly opens in the browser.
 class RecordPage extends StatefulWidget {

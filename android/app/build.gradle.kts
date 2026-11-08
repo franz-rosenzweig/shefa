@@ -74,8 +74,8 @@ android {
         }
     }
 
-    // The fork: native libraries are kept compressed in the APK, which keeps it
-    // under 30 MB, small enough to send to the phone through the Claude app.
+    // The fork: native libraries are kept compressed in the APK, which brings
+    // it from about 33 MB to 17.
     packaging {
         jniLibs {
             useLegacyPackaging = true
